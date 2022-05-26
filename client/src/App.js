@@ -54,7 +54,7 @@ setText(text);
   return (
     <div className="App">
    <div className="container">
-     <h1>TODO APP</h1>
+     <h1>TODO LIST</h1>
      <div className="top">
       <input type="text" placeholder="write something..."
       value={text}
