@@ -7,3 +7,5 @@ const todoSchema=new mongosse.Schema({
     }
     
 })
+
+module.exports=mongosse.model("TODo",todoSchema);
